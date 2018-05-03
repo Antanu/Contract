@@ -1,5 +1,5 @@
 *{
-	margin: 0;
+	margin: 0px;
 	padding: 0px;
 	font-family: verdana;
 	max-width: 100%;
@@ -12,11 +12,11 @@
 }
 .header p{
 
-position:  relative;
+position: absolute;
 
 background-color: #fdbd3b;
 
-left: 100%;
+left: 50%;
 
 font-size: 24px;
 
@@ -30,6 +30,7 @@ padding: 117px;
 
 }
 .main{
+	
 	position: absolute;
 	width:  100%;
 	/* height: 100px; */
@@ -41,6 +42,11 @@ padding: 117px;
 	position:  relative;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	
+}
+
+.bedford img{
+
 }
 .coventry{
 	float: left;
@@ -49,6 +55,7 @@ padding: 117px;
 	position:  relative;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	
 }
 .footer{position: relative;top: 500px;}
 
