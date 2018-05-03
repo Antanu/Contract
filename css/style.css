@@ -3,6 +3,7 @@
 	padding: 0px;
 	font-family: verdana;
 	max-width: 100%;
+	left: 2px;
 }
 .container {
 	max-width: 50%;
@@ -28,6 +29,9 @@ padding: 117px;
 }
 .heading{
 
+left: 3px;
+
+position:  relative;
 }
 .main{
 	
