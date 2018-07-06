@@ -1,23 +1,25 @@
 *{
-	margin: 0px;
+	margin: 0;
 	padding: 0px;
 	font-family: verdana;
 	max-width: 100%;
-	left: 2px;
 }
 .container {
-	max-width: 50%;
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	position:  relative;
 	height: 500px;
 	background-image: url(../images/header.jpg);
 	margin-bottom: 50px;
 }
 .header p{
 
-position: absolute;
+position:  relative;
 
 background-color: #fdbd3b;
 
-left: 50%;
+left: 100%;
 
 font-size: 24px;
 
@@ -29,12 +31,8 @@ padding: 117px;
 }
 .heading{
 
-left: 3px;
-
-position:  relative;
 }
 .main{
-	
 	position: absolute;
 	width:  100%;
 	/* height: 100px; */
@@ -46,11 +44,6 @@ position:  relative;
 	position:  relative;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	
-}
-
-.bedford img{
-
 }
 .coventry{
 	float: left;
@@ -59,7 +52,6 @@ position:  relative;
 	position:  relative;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	
 }
 .footer{position: relative;top: 500px;}
 
